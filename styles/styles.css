@@ -1,0 +1,17 @@
+html{
+    font-size: 18px;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    
+}
+img{
+   border: solid black;
+   border-radius: 50%;
+}
+h1{  
+    color: #ffffff;
+    font-size: 30px;
+    text-shadow: 1px 1px 1px #ffffff;
+}
+#description{
+    font-size: 15px;
+}
