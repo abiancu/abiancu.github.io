@@ -1,15 +1,13 @@
-var buttonHeading = document.querySelector('button');
-var myHeading = document.querySelector('h1');
-var name = 'Alejandro Biancucci';
+var btn = document.querySelector('button');
+var heading = document.querySelector('h1');
 
-
-buttonHeading.addEventListener('click', () => {
-    myHeading.textContent = 'Software Developer';
-    buttonHeading.textContent = 'name';
-    buttonHeading.onclick = () => {
-        myHeading.textContent = name;
-        buttonHeading.textContent = 'profession';
+btn.onclick = () => {
+    if(heading.innerHTML === 'Alejandro Biancucci'){
+        heading.innerHTML = 'Software Developer';
+        btn.textContent = 'Name';
     }
-});
-
-
+    else{
+        heading.innerHTML = 'Alejandro Biancucci';
+        btn.textContent = 'Profession';
+    }
+}
